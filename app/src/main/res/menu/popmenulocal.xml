@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/l1"
+        android:title="VIỆT THÁI QUÂN 3" />
+    <item
+        android:id="@+id/l2"
+        android:title="VIỆT THÁI QUÂN 4" />
+    <item
+        android:id="@+id/l3"
+        android:title="SƠN MINH #2" />
+    <item
+        android:id="@+id/l4"
+        android:title="SƠN MINH #5" />
+</menu>

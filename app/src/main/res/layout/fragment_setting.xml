@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDCACA"
+    android:id="@+id/setting_fragment"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".fragment.SettingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="Cài đặt"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/changeLang"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Đổi ngôn ngữ"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:background="@drawable/roundedbutton"
+        android:drawableRight="@drawable/baseline_arrow_circle_right_24" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/settingAcc"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Thiết lập tài khoản"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:background="@drawable/roundedbutton"
+        android:drawableRight="@drawable/baseline_arrow_circle_right_24" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logout"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Đăng xuất"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:background="@drawable/roundedbutton"
+        android:drawableRight="@drawable/round_logout_24" />
+</LinearLayout>
